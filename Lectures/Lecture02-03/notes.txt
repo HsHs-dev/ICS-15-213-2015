@@ -1,0 +1,45 @@
+2^1 2^0 . 2^-1 2^-2
+        |
+    binary point
+
+Byte = 8 bits
+
+binary 00000000_2 to 11111111_2
+Decimal 0_10 255_10
+Hexadecimal 00_16 to FF_16
+
+=================================================================
+Encoding Integeres:-
+
+    Unsigned:
+                w-1
+        B2U(x) = ∑ x_i . 2^i
+                i=0
+
+ex: 0 1 1 0 1 -> 0 + (1 * 2^3) + (1 * 2^2) + 0 + (1 * 2^0) =
+                 0 + 8 + 4 + 0 + 1 = 13
+
+
+    Two' Complement:
+                                  w-2
+        B2T(x) = -x_w-1 . 2^w-1 + ∑ x_i . 2^i
+                 --------------   i=0
+                    Sign bit aka Most Signigicant Bit
+
+ex: 1 0 1 1 0 -> (-1 * 2^4) + 0 + (1 * 2^2) + (1 * 2^1) + 0 =
+                -16 + 0 + 4 + 2 + 0 = -10
+
+=================================================================
+
+=================================================================
+Numeric Ranges:-
+
+    Unsigned Values:
+        UMin = 0
+        UMax = 2^w - 1
+
+    Two's Complement Values:
+        TMin = -2^w-1
+        TMax = 2^w-1 - 1
+
+special value (-1) = 111..1
