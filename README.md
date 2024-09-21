@@ -12,7 +12,7 @@ The repo will contains:
 
 ## Why am I taking this course?
 
-I am taking this course as a part of my *Learnign Computer Science Journey*, to enrich my knwoledge to computer systems which considered a crucial topic, as well as a part of my preparation to *Operating Systems* course, which requires some prior knwoledge of computer systems.
+I am taking this course as a part of my *Learning Computer Science Journey*, to enrich my knwoledge to computer systems which considered a crucial topic, as well as a part of my preparation to *Operating Systems* course, which requires some prior knwoledge of computer systems.
 
 ### Links 🔗
 
