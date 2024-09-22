@@ -20,4 +20,6 @@ I am taking this course as a part of my *Learning Computer Science Journey*, to 
 
 [Course's website](https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/index.html)
 
+[Python Tutor](https://pythontutor.com/c.html#mode=edit) is a useful websit to help you visualize your code, so you can see bit-manipulations in action. Make sure to use byte-level view of data.
+
 Hope you find it useful, and wish me luck :)
