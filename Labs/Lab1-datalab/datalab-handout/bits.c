@@ -166,7 +166,17 @@ int tmin(void) { return 1 << 31; }
  *   Max ops: 10
  *   Rating: 2
  */
-int isTmax(int x) { return 2; }
+int isTmax(int x)
+{
+    int y = x;
+    y = ~y;
+    y = !y;
+    y = !y;
+    y = y + 1;
+    y = y + x;
+    y = y + x;
+    return !y;
+}
 /*
  * allOddBits - return 1 if all odd-numbered bits in word set to 1
  *   Examples allOddBits(0xFFFFFFFD) = 0, allOddBits(0xAAAAAAAA) = 1
