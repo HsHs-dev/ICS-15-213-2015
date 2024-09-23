@@ -184,7 +184,34 @@ int isTmax(int x)
  *   Max ops: 12
  *   Rating: 2
  */
-int allOddBits(int x) { return 2; }
+int allOddBits(int x) {
+
+    int z;
+    int y = 0xaa;
+    y = y << 8;
+    y = y + 0xaa;
+    y = y << 8;
+    y = y + 0xaa;
+    y = y << 8;
+    y = y + 0xaa;
+    z = ~y;
+    y = y & x;
+    y = y + z;
+    y = ~y;
+
+    return !y;
+
+    /*
+    Another clever solution by my friend 'Mojtaba'!
+    int byte1 = x>>24;
+    int byte2 = x>>16;
+    int byte3 = x>>8;
+    int byte4 = x;
+    int ans = (byte1 &0xAA) & (byte2 &0xAA) & (byte3 &0xAA) & (byte4 & 0xAA);
+    return !((ans+0x55)^0xFF);
+    */
+
+}
 /*
  * negate - return -x
  *   Example: negate(1) = -1.
@@ -192,7 +219,10 @@ int allOddBits(int x) { return 2; }
  *   Max ops: 5
  *   Rating: 2
  */
-int negate(int x) { return 2; }
+int negate(int x) {
+    x = ~x;
+   return x + 1;
+}
 // 3
 /*
  * isAsciiDigit - return 1 if 0x30 <= x <= 0x39 (ASCII codes for characters '0'
