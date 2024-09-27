@@ -255,7 +255,30 @@ int isAsciiDigit(int x) {
  *   Max ops: 16
  *   Rating: 3
  */
-int conditional(int x, int y, int z) { return 2; }
+int conditional(int x, int y, int z) {
+
+    int answer;
+    int step1;
+    int step2;
+
+    x = !x;
+    x = x << 31;
+    x = x >> 31;
+    step1 = (~x) & y;
+    step2 = x & z;
+    answer = step1 + step2;
+
+    return answer;
+
+
+    // x = !x;
+    // x = x << 31;
+    // x = x >> 31;
+
+    // return (((~x) & y) + (x & z));
+
+
+}
 /*
  * isLessOrEqual - if x <= y  then return 1, else return 0
  *   Example: isLessOrEqual(4,5) = 1.
