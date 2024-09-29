@@ -12,9 +12,19 @@ The repo will contains:
 
 ## Why am I taking this course?
 
-I am taking this course as a part of my *Learning Computer Science Journey*, to enrich my knwoledge to computer systems which considered a crucial topic, as well as a part of my preparation to *Operating Systems* course, which requires some prior knwoledge of computer systems.
+I am taking this course as a part of my [*Learning Computer Science Journey*](https://github.com/ossu), to enrich my knwoledge to computer systems which considered a crucial topic, as well as a part of my preparation to [*Operating Systems*](https://github.com/ossu/computer-science/blob/master/coursepages/ostep/README.md) course, which requires some prior knwoledge of computer systems.
 
-### Links 🔗
+## Progress
+
+- [ ] Lab 1 - Data Lab
+- [ ] Lab 2 - Bomb Lab
+- [ ] Lab 3 - Attack Lab
+- [ ] Lab 4 - Cache Lab
+- [ ] Lab 5 - Shell Lab
+- [ ] Lab 6 - Malloc Lab
+- [ ] Lab 7 - Proxy Lab
+
+## Links 🔗
 
 [Book's website](https://csapp.cs.cmu.edu/)
 
