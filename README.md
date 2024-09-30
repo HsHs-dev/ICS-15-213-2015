@@ -14,7 +14,7 @@ The repo will contains:
 
 I am taking this course as a part of my [*Learning Computer Science Journey*](https://github.com/ossu), to enrich my knwoledge to computer systems which considered a crucial topic, as well as a part of my preparation to [*Operating Systems*](https://github.com/ossu/computer-science/blob/master/coursepages/ostep/README.md) course, which requires some prior knwoledge of computer systems.
 
-## Progress
+## Labs
 
 - [ ] Lab 1 - Data Lab
 - [ ] Lab 2 - Bomb Lab
@@ -24,6 +24,14 @@ I am taking this course as a part of my [*Learning Computer Science Journey*](ht
 - [ ] Lab 6 - Malloc Lab
 - [ ] Lab 7 - Proxy Lab
 
+
+## Lectures
+
+- [x] [Lecture 01: Course Overview](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d8c83d3a-8074-4afe-ae3b-693e2250999a)
+- [x] [Lecture 02: Bits, Bytes, and Integers](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6ca8cdb4-6961-42d9-8fac-299e53759a17)
+- [x] [Lecture 03: Bits, Bytes, and Integers (cont.)](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=526e6341-aa53-4107-8fa1-d13c0e92342e)
+- [x] [Lecture 04: Floating Point](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8dd08ed5-7688-4b34-937f-201b909f61c7)
+- [x] [Lecture 05: Machine-Level Programming I: Basics](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6e410255-3858-4e85-89c7-812c5845d197)
 ## Links 🔗
 
 [Book's website](https://csapp.cs.cmu.edu/)
