@@ -32,6 +32,7 @@ I am taking this course as a part of my [*Learning Computer Science Journey*](ht
 - [x] [Lecture 03: Bits, Bytes, and Integers (cont.)](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=526e6341-aa53-4107-8fa1-d13c0e92342e)
 - [x] [Lecture 04: Floating Point](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8dd08ed5-7688-4b34-937f-201b909f61c7)
 - [x] [Lecture 05: Machine-Level Programming I: Basics](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6e410255-3858-4e85-89c7-812c5845d197)
+- [x] [Lecture 06: Machine-Level Programming II: Control](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fc93c499-8fc9-4652-9a99-711058054afb)
 ## Links 🔗
 
 [Book's website](https://csapp.cs.cmu.edu/)
