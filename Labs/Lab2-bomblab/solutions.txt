@@ -1,3 +1,4 @@
 phase1: Border relations with Canada have never been better. I found this extra text, looks like there is a secret! (Wow! You've defused the secret stage! flyers)
 phase2: 1 2 4 8 16 32 64
 phase3: 1 311
+phase4: 1 0
