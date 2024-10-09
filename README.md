@@ -1,6 +1,6 @@
 # 15-213 Intro To Computer Systems
 
-This repo has my attmpt to Carnegie Mellon University *Intro to Computer Systems* course. Also know as 15-213.
+This repo has my attempt to Carnegie Mellon University *Intro to Computer Systems* course. Also know as 15-213.
 
 The accompanying book for this course, which the course is based upon, and is also written by the course lecturers is **Computer Systems: A Programmer's Perspective** or **CS:APP**.
 
@@ -12,7 +12,7 @@ The repo will contains:
 
 ## Why am I taking this course?
 
-I am taking this course as a part of my [*Learning Computer Science Journey*](https://github.com/ossu), to enrich my knwoledge to computer systems which considered a crucial topic, as well as a part of my preparation to [*Operating Systems*](https://github.com/ossu/computer-science/blob/master/coursepages/ostep/README.md) course, which requires some prior knwoledge of computer systems.
+I am taking this course as a part of my [*Learning Computer Science Journey*](https://github.com/ossu), to enrich my knowledge to computer systems which considered a crucial topic, as well as a part of my preparation to [*Operating Systems*](https://github.com/ossu/computer-science/blob/master/coursepages/ostep/README.md) course, which requires some prior knowledge of computer systems.
 
 ## Labs
 
