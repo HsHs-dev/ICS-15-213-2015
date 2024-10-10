@@ -17,7 +17,7 @@ I am taking this course as a part of my [*Learning Computer Science Journey*](ht
 ## Labs
 
 - [ ] Lab 1 - Data Lab
-- [ ] Lab 2 - Bomb Lab
+- [x] Lab 2 - Bomb Lab
 - [ ] Lab 3 - Attack Lab
 - [ ] Lab 4 - Cache Lab
 - [ ] Lab 5 - Shell Lab
