@@ -35,6 +35,7 @@ I am taking this course as a part of my [*Learning Computer Science Journey*](ht
 - [x] [Lecture 06: Machine-Level Programming II: Control](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fc93c499-8fc9-4652-9a99-711058054afb)
 - [x] [Lecture 07: Machine-Level Programming III: Procedures](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2994255f-923b-4ad4-8fb4-5def7fd802cd)
 - [x] [Lecture 08: Machine-Level Programming IV: Data](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=03308c94-fc20-40d8-8978-1a9b81c344ed)
+- [x] [Lecture 09: Machine-Level Programming V: Advanced Topics](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3f0bf9ca-d640-4798-b91a-73aed656a10a)
 ## Links 🔗
 
 [Book's website](https://csapp.cs.cmu.edu/)

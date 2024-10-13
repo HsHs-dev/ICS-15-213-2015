@@ -157,7 +157,10 @@ int bitXor(int x, int y) {
  *   Max ops: 4
  *   Rating: 1
  */
-int tmin(void) { return 1 << 31; }
+int tmin(void) {
+    int x = 1 << 31;
+    return x;
+}
 // 2
 /*
  * isTmax - returns 1 if x is the maximum, two's complement number,
@@ -234,7 +237,7 @@ int negate(int x) {
  */
 int isAsciiDigit(int x) {
 
-    // too many operators (29), but ./driver.pl gives the points!
+    // too many operators (29), so no performance points :)
     int is_zero = x ^ 0x30;
     int is_one = x ^ 0x31;
     int is_two = x ^ 0x32;
@@ -286,7 +289,41 @@ int conditional(int x, int y, int z) {
  *   Max ops: 24
  *   Rating: 3
  */
-int isLessOrEqual(int x, int y) { return 2; }
+int isLessOrEqual(int x, int y) {
+
+    // btest is happy, but driver.pl is not :(
+
+    // int negative_y;
+    // negative_y = (~y) + 0x1;
+    // x = x + negative_y;
+    // x = (~x) + 0x1;
+    // x = x >> 0x1F;
+    // x = !x;
+    // return x;
+
+    // int negative_x, diff;
+    // x = x << 1;
+    // y = y << 1;
+    // negative_x = (~x) + 1;
+    // diff = y + negative_x;
+    // diff = diff >> 31;
+    // diff = !diff;
+    // return diff;
+
+    int negative_x = (~x) + 1;
+
+      int overflow_flag = !((x ^ negative_x) >> 31);
+
+      int diff = y + negative_x;
+
+      int sign_flag = !(~(diff >> 31));
+
+      int zero_flag = !diff;
+
+      int result = (sign_flag ^ overflow_flag) | zero_flag;
+
+      return !result;
+}
 // 4
 /*
  * logicalNeg - implement the ! operator, using all of
